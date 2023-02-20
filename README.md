@@ -12,14 +12,14 @@
 - [Gitee源码地址](https://gitee.com/mybatis-mapper/mapper)
 - [GitHub源码地址](https://github.com/mybatis-mapper/mapper)
 
-#### 示例：[SpringBoot集成通用mapper Demo]()
+#### 示例：[SpringBoot集成通用mapper Demo](https://github.com/hangzhi7/springboot-mybatis/tree/master/springboot-mapper)
 
 ### 方式二：SpringBoot集成mybatis-plus
 
 - [MyBatis-Plus 文档](https://baomidou.com)
 - [GitHub源码地址](https://github.com/baomidou/mybatis-plus)
 
-#### 示例：[SpringBoot集成mybatis-plus Demo]()
+#### 示例：[SpringBoot集成mybatis-plus Demo](https://github.com/hangzhi7/springboot-mybatis/tree/master/springboot-mybatis-plus)
 
 ### 方式三：SpringBoot集成fluent-mybatis
 
@@ -27,7 +27,7 @@
 - [Gitee源码地址](https://gitee.com/fluent-mybatis/fluent-mybatis)
 - [GitHub源码地址](https://github.com/atool/fluent-mybatis)
 
-#### 示例：[SpringBoot集成fluent-mybatis Demo]()
+#### 示例：[SpringBoot集成fluent-mybatis Demo](https://github.com/hangzhi7/springboot-mybatis/tree/master/springboot-fluent-mybatis)
 
 ## 对比
 
