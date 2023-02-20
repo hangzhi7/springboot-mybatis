@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.hh</groupId>
+		<artifactId>springboot-mybatis</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.hh.fluent.mybatis</groupId>
+	<artifactId>springboot-fluent-mybatis</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>springboot-fluent-mybatis</name>
+	<description>springboot集成fluent-mybatis</description>
+
+	<properties>
+		<fluent-mybatis.version>1.9.9</fluent-mybatis.version>
+	</properties>
+	<dependencies>
+		<!-- 引入fluent-mybatis 运行依赖包, scope为compile -->
+		<dependency>
+			<groupId>com.github.atool</groupId>
+			<artifactId>fluent-mybatis</artifactId>
+			<version>${fluent-mybatis.version}</version>
+		</dependency>
+		<!-- 引入fluent-mybatis-processor, scope设置为provider 编译需要，运行时不需要 -->
+		<dependency>
+			<groupId>com.github.atool</groupId>
+			<artifactId>fluent-mybatis-processor</artifactId>
+			<scope>provided</scope>
+			<version>${fluent-mybatis.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
